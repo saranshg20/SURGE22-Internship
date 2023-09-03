@@ -1,0 +1,43 @@
+Could NOT find ALSA (missing: ALSA_LIBRARY ALSA_INCLUDE_DIR) 
+Could NOT find Sndio (missing: SNDIO_LIBRARY SNDIO_INCLUDE_DIR) 
+Could NOT find VorbisEnc (missing: VORBISENC_LIBRARY VORBISENC_INCLUDE_DIR VORBIS_FOUND) 
+Could NOT find FLAC (missing: FLAC_LIBRARY FLAC_INCLUDE_DIR OGG_FOUND) 
+Could NOT find Opus (missing: OPUS_LIBRARY OPUS_INCLUDE_DIR OGG_FOUND) 
+Could NOT find Speex (missing: SPEEX_LIBRARY SPEEX_INCLUDE_DIR) 
+Could NOT find SQLITE3 (missing: SQLITE3_LIBRARY SQLITE3_INCLUDE_DIR) 
+Checking processor clipping capabilities...
+Checking processor clipping capabilities... disabled
+The following features have been enabled:
+
+ * BUILD_TESTING, build tests
+ * ENABLE_CPACK, enable CPack support
+ * ENABLE_PACKAGE_CONFIG, generate and install package config file
+
+-- The following features have been disabled:
+
+ * BUILD_SHARED_LIBS, build shared libraries
+ * ENABLE_EXTERNAL_LIBS, enable FLAC, Vorbis, and Opus codecs
+ * ENABLE_EXPERIMENTAL, enable experimental code
+ * BUILD_REGTEST, build regtest
+ * ENABLE_CPU_CLIP, Enable tricky cpu specific clipper
+ * ENABLE_BOW_DOCS, enable black-on-white html docs
+
+-- The following OPTIONAL packages have not been found:
+
+ * ALSA
+ * Sndio
+ * Speex, an audio codec tuned for speech, <www.speex.org/>
+   Enables experemental Speex support
+ * SQLite3, light weight SQL database engine., <www.sqlite.org/>
+   Enables regtest
+
+-- The following RECOMMENDED packages have not been found:
+
+ * VorbisEnc, open source lossy audio codec, <www.vorbis.com/>
+   Enables Vorbis support
+ * FLAC, Free Lossless Audio Codec Library, <www.xiph.org/flac/>
+   Enables FLAC support
+ * Opus, Standardized open source low-latency fullband codec, <www.opus-codec.org/>
+   Enables experimental Opus support
+
+Configuring done

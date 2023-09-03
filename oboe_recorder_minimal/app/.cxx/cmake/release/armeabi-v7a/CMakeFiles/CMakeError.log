@@ -1,0 +1,55 @@
+Determining if the include file direct.h exists failed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_83712"
+[1/2] Building C object CMakeFiles/cmTC_83712.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_83712.dir/CheckIncludeFile.c.o 
+C:\Users\Hp\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -D_FILE_OFFSET_BITS=64  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_83712.dir/CheckIncludeFile.c.o   -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: 'direct.h' file not found
+#include <direct.h>
+         ^~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_53285"
+[1/2] Building C object CMakeFiles/cmTC_53285.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_53285.dir/CheckIncludeFile.c.o 
+C:\Users\Hp\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -D_FILE_OFFSET_BITS=64  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_53285.dir/CheckIncludeFile.c.o   -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function sqlite3_close exists in the sqlite3 failed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_41144"
+[1/2] Building C object CMakeFiles/cmTC_41144.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_41144
+FAILED: cmTC_41144 
+cmd.exe /C "cd . && C:\Users\Hp\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=sqlite3_close  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_41144.dir/CheckFunctionExists.c.o  -o cmTC_41144  -lsqlite3 -lm -latomic -lm && cd ."
+C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\ld: error: cannot find -lsqlite3
+C:/Users/Hp/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:17: error: undefined reference to 'sqlite3_close'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function fstat64 exists failed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_c573c"
+[1/2] Building C object CMakeFiles/cmTC_c573c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c573c
+FAILED: cmTC_c573c 
+cmd.exe /C "cd . && C:\Users\Hp\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=fstat64  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_c573c.dir/CheckFunctionExists.c.o  -o cmTC_c573c  -lm -latomic -lm && cd ."
+C:/Users/Hp/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:17: error: undefined reference to 'fstat64'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+

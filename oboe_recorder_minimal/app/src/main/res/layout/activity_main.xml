@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnStartRecording"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="1. Start Recording" />
+
+        <Button
+            android:id="@+id/btnStopRecording"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="2. Stop Recording" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/darker_gray" />
+
+        <!--<Button
+            android:id="@+id/btnStartPlayingFromRecording"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="3. Start Play from Recorded Stream" />-->
+
+        <!-- <Button
+             android:id="@+id/btnStopPlayingFromRecording"
+             android:layout_width="match_parent"
+             android:layout_height="55dp"
+             android:layout_marginStart="8dp"
+             android:layout_marginLeft="8dp"
+             android:layout_marginTop="8dp"
+             android:layout_marginEnd="8dp"
+             android:layout_marginRight="8dp"
+             android:layout_marginBottom="8dp"
+             android:text="4. Stop Play from Recorded Stream" />-->
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/darker_gray" />
+
+        <!--   <Button
+               android:id="@+id/btnWriteToFile"
+               android:layout_width="match_parent"
+               android:layout_height="55dp"
+               android:layout_marginStart="8dp"
+               android:layout_marginLeft="8dp"
+               android:layout_marginTop="8dp"
+               android:layout_marginEnd="8dp"
+               android:layout_marginRight="8dp"
+               android:layout_marginBottom="8dp"
+               android:text="5. Write to file" />
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:background="@android:color/darker_gray" />-->
+
+        <Button
+            android:id="@+id/btnStartPlayFromFile"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="6. Start Play from file" />
+
+        <Button
+            android:id="@+id/btnStopPlayFromFile"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="7. Stop Play from file" />
+
+        <Button
+            android:id="@+id/btnShareFile"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="8. Share Recording" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginVertical="16dp"
+            android:padding="8dp"
+            >
+
+            <TextView
+                android:id="@+id/marginText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Offset Margin: "
+                android:textSize="18dp"
+                android:layout_gravity="start"
+                android:layout_margin="8dp"/>
+
+            <RadioGroup
+                android:id="@+id/radio_group_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="start"
+                android:layout_marginHorizontal="10dp"
+                >
+
+                <RadioButton
+                    android:id="@+id/margin_box_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onOffsetMarginBoxClicked"
+                    android:checked="true"
+                    android:clickable="false"
+                    android:text="1" />
+
+                <RadioButton
+                    android:id="@+id/margin_box_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onOffsetMarginBoxClicked"
+                    android:clickable="false"
+                    android:text="2" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/gainText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Gain Factor: "
+                android:textSize="18dp"
+                android:layout_margin="8dp"/>
+            <EditText
+                android:id="@+id/gain_edit_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:padding="8dp"
+            >
+            <TextView
+                android:id="@+id/sample_rate_factor_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Sample Rate Factor: "
+                android:textSize="18dp"
+                android:layout_margin="8dp"/>
+            <EditText
+                android:id="@+id/sample_rate_factor_edit_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

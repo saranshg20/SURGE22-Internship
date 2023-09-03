@@ -1,0 +1,900 @@
+The target system is: Android - 1 - i686
+The host system is: Windows - 10.0.22000 - AMD64
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_ba56f"
+[1/2] Building C object CMakeFiles/cmTC_ba56f.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_ba56f
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_5f259"
+[1/2] Building C object CMakeFiles/cmTC_5f259.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_5f259
+Android (6317467 based on r365631c1) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project e0caee08e5f09b374a27a676d04978c81fcb1928) (based on LLVM 9.0.8svn)
+Target: i686-none-linux-android16
+Thread model: posix
+InstalledDir: C:\Users\Hp\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x
+Found candidate GCC installation: C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x
+Selected GCC installation: C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x
+Candidate multilib: .;@m32
+Selected multilib: .;@m32
+ "C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\\ld" --sysroot=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_5f259 "C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16\\crtbegin_dynamic.o" "-LC:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\i386" -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16 -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_5f259.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16\\crtend_android.o"
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(i686-linux-android-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_5f259"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_5f259.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_5f259]
+  ignore line: [Android (6317467 based on r365631c1) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project e0caee08e5f09b374a27a676d04978c81fcb1928) (based on LLVM 9.0.8svn)]
+  ignore line: [Target: i686-none-linux-android16]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\Hp\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x]
+  ignore line: [Found candidate GCC installation: C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m32]
+  link line: [ "C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\\ld" --sysroot=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_5f259 "C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16\\crtbegin_dynamic.o" "-LC:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\i386" -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16 -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_5f259.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16\\crtend_android.o"]
+    arg [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\\ld] ==> ignore
+    arg [--sysroot=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5f259] ==> ignore
+    arg [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16\\crtbegin_dynamic.o] ==> ignore
+    arg [-LC:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\i386] ==> dir [C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\i386]
+    arg [-LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x]
+    arg [-LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16] ==> dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16]
+    arg [-LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android] ==> dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android]
+    arg [-LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib]
+    arg [-LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc_real.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_5f259.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16\\crtend_android.o] ==> ignore
+  collapse library dir [C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\i386] ==> [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.8/lib/linux/i386]
+  collapse library dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  collapse library dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16] ==> [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16]
+  collapse library dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android] ==> [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android]
+  collapse library dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/i686-linux-android/lib]
+  collapse library dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.8/lib/linux/i386;C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x;C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16;C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android;C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/i686-linux-android/lib;C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_e508f"
+[1/2] Building C object CMakeFiles/cmTC_e508f.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_e508f
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_06893"
+[1/2] Building C object CMakeFiles/cmTC_06893.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_06893
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_80e2d"
+[1/2] Building C object CMakeFiles/cmTC_80e2d.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_80e2d
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_9d442"
+[1/2] Building CXX object CMakeFiles/cmTC_9d442.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_9d442
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_730bb"
+[1/2] Building CXX object CMakeFiles/cmTC_730bb.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_730bb
+Android (6317467 based on r365631c1) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project e0caee08e5f09b374a27a676d04978c81fcb1928) (based on LLVM 9.0.8svn)
+Target: i686-none-linux-android16
+Thread model: posix
+InstalledDir: C:\Users\Hp\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x
+Found candidate GCC installation: C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x
+Selected GCC installation: C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x
+Candidate multilib: .;@m32
+Selected multilib: .;@m32
+ "C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\\ld" --sysroot=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_730bb "C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16\\crtbegin_dynamic.o" "-LC:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\i386" -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16 -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_730bb.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl "C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16\\crtend_android.o"
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(i686-linux-android-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_730bb"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_730bb.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_730bb]
+  ignore line: [Android (6317467 based on r365631c1) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project e0caee08e5f09b374a27a676d04978c81fcb1928) (based on LLVM 9.0.8svn)]
+  ignore line: [Target: i686-none-linux-android16]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\Hp\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x]
+  ignore line: [Found candidate GCC installation: C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m32]
+  link line: [ "C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\\ld" --sysroot=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_730bb "C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16\\crtbegin_dynamic.o" "-LC:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\i386" -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16 -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_730bb.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl "C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16\\crtend_android.o"]
+    arg [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\\ld] ==> ignore
+    arg [--sysroot=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_730bb] ==> ignore
+    arg [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16\\crtbegin_dynamic.o] ==> ignore
+    arg [-LC:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\i386] ==> dir [C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\i386]
+    arg [-LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x]
+    arg [-LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16] ==> dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16]
+    arg [-LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android] ==> dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android]
+    arg [-LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib]
+    arg [-LC:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc_real.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_730bb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16\\crtend_android.o] ==> ignore
+  collapse library dir [C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\i386] ==> [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.8/lib/linux/i386]
+  collapse library dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  collapse library dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16] ==> [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16]
+  collapse library dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android] ==> [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android]
+  collapse library dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/i686-linux-android/lib]
+  collapse library dir [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [c++;m;gcc;dl;c;gcc;dl]
+  implicit dirs: [C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.8/lib/linux/i386;C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x;C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16;C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android;C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/i686-linux-android/lib;C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_d59d5"
+[1/2] Building CXX object CMakeFiles/cmTC_d59d5.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_d59d5
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_eaaad"
+[1/2] Building CXX object CMakeFiles/cmTC_eaaad.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_eaaad
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_6b954"
+[1/2] Building CXX object CMakeFiles/cmTC_6b954.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_6b954
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_77bd7"
+[1/2] Building CXX object CMakeFiles/cmTC_77bd7.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_77bd7
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_02692"
+[1/2] Building C object CMakeFiles/cmTC_02692.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_02692
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_d18c9"
+[1/2] Building C object CMakeFiles/cmTC_d18c9.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d18c9
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_955c8"
+[1/2] Building C object CMakeFiles/cmTC_955c8.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_955c8
+
+
+Determining size of off_t passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_9e2f8"
+[1/2] Building C object CMakeFiles/cmTC_9e2f8.dir/SIZEOF_OFF_T.c.o
+[2/2] Linking C executable cmTC_9e2f8
+
+
+Determining size of off_t passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_dd161"
+[1/2] Building C object CMakeFiles/cmTC_dd161.dir/SIZEOF_OFF_T.c.o
+[2/2] Linking C executable cmTC_dd161
+
+
+Determining if the include file byteswap.h exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_16fc2"
+[1/2] Building C object CMakeFiles/cmTC_16fc2.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_16fc2
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_e60f7"
+[1/2] Building C object CMakeFiles/cmTC_e60f7.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e60f7
+
+
+Determining if the include file endian.h exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_57b91"
+[1/2] Building C object CMakeFiles/cmTC_57b91.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_57b91
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_00ade"
+[1/2] Building C object CMakeFiles/cmTC_00ade.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_00ade
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_3b30f"
+[1/2] Building C object CMakeFiles/cmTC_3b30f.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_3b30f
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_55a95"
+[1/2] Building C object CMakeFiles/cmTC_55a95.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_55a95
+
+
+Determining if the include file locale.h exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_c64fe"
+[1/2] Building C object CMakeFiles/cmTC_c64fe.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c64fe
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_d2bf1"
+[1/2] Building C object CMakeFiles/cmTC_d2bf1.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d2bf1
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_a81dc"
+[1/2] Building C object CMakeFiles/cmTC_a81dc.dir/SIZEOF_INT64_T.c.o
+[2/2] Linking C executable cmTC_a81dc
+
+
+Determining size of long passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_37362"
+[1/2] Building C object CMakeFiles/cmTC_37362.dir/SIZEOF_LONG.c.o
+[2/2] Linking C executable cmTC_37362
+
+
+Determining size of long long passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_c4241"
+[1/2] Building C object CMakeFiles/cmTC_c4241.dir/SIZEOF_LONG_LONG.c.o
+[2/2] Linking C executable cmTC_c4241
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_7fcc3"
+[1/2] Building C object CMakeFiles/cmTC_7fcc3.dir/SIZEOF_SSIZE_T.c.o
+[2/2] Linking C executable cmTC_7fcc3
+
+
+Determining size of wchar_t passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_05562"
+[1/2] Building C object CMakeFiles/cmTC_05562.dir/SIZEOF_WCHAR_T.c.o
+[2/2] Linking C executable cmTC_05562
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_07c40"
+[1/2] Building C object CMakeFiles/cmTC_07c40.dir/SIZEOF_SF_COUNT_T.c.o
+[2/2] Linking C executable cmTC_07c40
+
+
+Determining if the function floor exists in the m passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_b2e5e"
+[1/2] Building C object CMakeFiles/cmTC_b2e5e.dir/CheckFunctionExists.c.o
+C:/Users/Hp/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+C:/Users/Hp/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_b2e5e
+
+
+Determining if the function fstat exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_64f75"
+[1/2] Building C object CMakeFiles/cmTC_64f75.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_64f75
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_a16ee"
+[1/2] Building C object CMakeFiles/cmTC_a16ee.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a16ee
+
+
+Determining if the function gmtime exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_e91a1"
+[1/2] Building C object CMakeFiles/cmTC_e91a1.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_e91a1
+
+
+Determining if the function gmtime_r exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_6e072"
+[1/2] Building C object CMakeFiles/cmTC_6e072.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_6e072
+
+
+Determining if the function localtime exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_b492f"
+[1/2] Building C object CMakeFiles/cmTC_b492f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_b492f
+
+
+Determining if the function localtime_r exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_c3b56"
+[1/2] Building C object CMakeFiles/cmTC_c3b56.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c3b56
+
+
+Determining if the function lseek exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_df894"
+[1/2] Building C object CMakeFiles/cmTC_df894.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_df894
+
+
+Determining if the function open exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_ec533"
+[1/2] Building C object CMakeFiles/cmTC_ec533.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_ec533
+
+
+Determining if the function read exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_39a62"
+[1/2] Building C object CMakeFiles/cmTC_39a62.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_39a62
+
+
+Determining if the function write exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_68fcd"
+[1/2] Building C object CMakeFiles/cmTC_68fcd.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_68fcd
+
+
+Determining if the function lrint exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_057ac"
+[1/2] Building C object CMakeFiles/cmTC_057ac.dir/CheckFunctionExists.c.o
+C:/Users/Hp/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'lrint' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS lrint
+                              ^
+C:/Users/Hp/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'lrint' is a builtin with type 'long (double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS lrint
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_057ac
+
+
+Determining if the function lrintf exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_3e03a"
+[1/2] Building C object CMakeFiles/cmTC_3e03a.dir/CheckFunctionExists.c.o
+C:/Users/Hp/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'lrintf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS lrintf
+                              ^
+C:/Users/Hp/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'lrintf' is a builtin with type 'long (float)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS lrintf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_3e03a
+
+
+Determining if the function ftruncate exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_72c09"
+[1/2] Building C object CMakeFiles/cmTC_72c09.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_72c09
+
+
+Determining if the function fsync exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_28ac2"
+[1/2] Building C object CMakeFiles/cmTC_28ac2.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_28ac2
+
+
+Determining if the function pipe exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_10c70"
+[1/2] Building C object CMakeFiles/cmTC_10c70.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_10c70
+
+
+Determining if the function setlocale exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_5167c"
+[1/2] Building C object CMakeFiles/cmTC_5167c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5167c
+
+
+Determining if the function waitpid exists passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_dafaa"
+[1/2] Building C object CMakeFiles/cmTC_dafaa.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_dafaa
+
+
+Determining if the S_IRGRP exist passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_03cb3"
+[1/2] Building C object CMakeFiles/cmTC_03cb3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_03cb3
+
+File C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef S_IRGRP
+  return ((int*)(&S_IRGRP))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of unsigned short passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_99fa8"
+[1/2] Building C object CMakeFiles/cmTC_99fa8.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+[2/2] Linking C executable cmTC_99fa8
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_93d67"
+[1/2] Building C object CMakeFiles/cmTC_93d67.dir/TestEndianess.c.o
+[2/2] Linking C executable cmTC_93d67
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+

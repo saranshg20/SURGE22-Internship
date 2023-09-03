@@ -1,0 +1,41 @@
+Determining if the include file direct.h exists failed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_824b1"
+[1/2] Building C object CMakeFiles/cmTC_824b1.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_824b1.dir/CheckIncludeFile.c.o 
+C:\Users\Hp\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_824b1.dir/CheckIncludeFile.c.o   -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: 'direct.h' file not found
+#include <direct.h>
+         ^~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_ab0d5"
+[1/2] Building C object CMakeFiles/cmTC_ab0d5.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_ab0d5.dir/CheckIncludeFile.c.o 
+C:\Users\Hp\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_ab0d5.dir/CheckIncludeFile.c.o   -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function sqlite3_close exists in the sqlite3 failed with the following output:
+Change Dir: C:/Users/Hp/OneDrive/Desktop/Oboe-minimal/Oboe-Regular-Updates/Oboe-minimal/oboe_recorder_minimal/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\Hp\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_25ef8"
+[1/2] Building C object CMakeFiles/cmTC_25ef8.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_25ef8
+FAILED: cmTC_25ef8 
+cmd.exe /C "cd . && C:\Users\Hp\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=sqlite3_close  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_25ef8.dir/CheckFunctionExists.c.o  -o cmTC_25ef8  -lsqlite3 -lm -latomic -lm && cd ."
+C:/Users/Hp/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin\ld: cannot find -lsqlite3
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+

@@ -1,0 +1,606 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\oboe\\CMakeLists.txt",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\CMakeLists.txt",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\cmake\\SndFileChecks.cmake",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\cmake\\TestInline.cmake",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\cmake\\ClipMode.cmake",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\cmake\\TestLargeFiles.cmake",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\cmake\\FindSndio.cmake",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\cmake\\FindVorbisEnc.cmake",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\cmake\\FindVorbis.cmake",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\cmake\\FindOgg.cmake",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\cmake\\FindFLAC.cmake",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\cmake\\FindOpus.cmake",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\cmake\\FindSpeex.cmake",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\cmake\\FindSQLite3.cmake",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\src\\config.h.cmake",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\src\\sndfile.h.in",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\sndfile.pc.in",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\doc\\libsndfile.css.in",
+    "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\libsndfile\\cmake\\CMakeAutoGen.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "NightlyBuild-Debug-x86_64": {
+      "artifactName": "NightlyBuild",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" NightlyBuild",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "sndfile-loopify-Debug-x86_64": {
+      "artifactName": "sndfile-loopify",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sndfile-loopify",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\sndfile-loopify",
+      "runtimeFiles": []
+    },
+    "NightlySubmit-Debug-x86_64": {
+      "artifactName": "NightlySubmit",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" NightlySubmit",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "sndfile-deinterleave-Debug-x86_64": {
+      "artifactName": "sndfile-deinterleave",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sndfile-deinterleave",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\sndfile-deinterleave",
+      "runtimeFiles": []
+    },
+    "sndfile-play-Debug-x86_64": {
+      "artifactName": "sndfile-play",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sndfile-play",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\sndfile-play",
+      "runtimeFiles": []
+    },
+    "ContinuousCoverage-Debug-x86_64": {
+      "artifactName": "ContinuousCoverage",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ContinuousCoverage",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "format_check_test-Debug-x86_64": {
+      "artifactName": "format_check_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" format_check_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\format_check_test",
+      "runtimeFiles": []
+    },
+    "sndfile-cmp-Debug-x86_64": {
+      "artifactName": "sndfile-cmp",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sndfile-cmp",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\sndfile-cmp",
+      "runtimeFiles": []
+    },
+    "ExperimentalConfigure-Debug-x86_64": {
+      "artifactName": "ExperimentalConfigure",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ExperimentalConfigure",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "ContinuousTest-Debug-x86_64": {
+      "artifactName": "ContinuousTest",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ContinuousTest",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "lossy_comp_test-Debug-x86_64": {
+      "artifactName": "lossy_comp_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" lossy_comp_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\lossy_comp_test",
+      "runtimeFiles": []
+    },
+    "string_test-Debug-x86_64": {
+      "artifactName": "string_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" string_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\string_test",
+      "runtimeFiles": []
+    },
+    "misc_test-Debug-x86_64": {
+      "artifactName": "misc_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" misc_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\misc_test",
+      "runtimeFiles": []
+    },
+    "sfversion-Debug-x86_64": {
+      "artifactName": "sfversion",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sfversion",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\sfversion",
+      "runtimeFiles": []
+    },
+    "test_main-Debug-x86_64": {
+      "artifactName": "test_main",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" test_main",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\test_main",
+      "runtimeFiles": []
+    },
+    "stdout_test-Debug-x86_64": {
+      "artifactName": "stdout_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" stdout_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\tests\\stdout_test",
+      "runtimeFiles": []
+    },
+    "pcm_test-Debug-x86_64": {
+      "artifactName": "pcm_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" pcm_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\pcm_test",
+      "runtimeFiles": []
+    },
+    "floating_point_test-Debug-x86_64": {
+      "artifactName": "floating_point_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" floating_point_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\floating_point_test",
+      "runtimeFiles": []
+    },
+    "ContinuousSubmit-Debug-x86_64": {
+      "artifactName": "ContinuousSubmit",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ContinuousSubmit",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "oboe-Debug-x86_64": {
+      "artifactName": "oboe",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" oboe",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\oboe\\liboboe.a",
+      "runtimeFiles": []
+    },
+    "make_sine-Debug-x86_64": {
+      "artifactName": "make_sine",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" make_sine",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\make_sine",
+      "runtimeFiles": []
+    },
+    "sndfile-to-text-Debug-x86_64": {
+      "artifactName": "sndfile-to-text",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sndfile-to-text",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\sndfile-to-text",
+      "runtimeFiles": []
+    },
+    "audioEngine-Debug-x86_64": {
+      "artifactName": "audioEngine",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" audioEngine",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libaudioEngine.so",
+      "runtimeFiles": []
+    },
+    "ogg_opus_test-Debug-x86_64": {
+      "artifactName": "ogg_opus_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ogg_opus_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\ogg_opus_test",
+      "runtimeFiles": []
+    },
+    "ContinuousBuild-Debug-x86_64": {
+      "artifactName": "ContinuousBuild",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ContinuousBuild",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "stdin_test-Debug-x86_64": {
+      "artifactName": "stdin_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" stdin_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\tests\\stdin_test",
+      "runtimeFiles": []
+    },
+    "ExperimentalUpdate-Debug-x86_64": {
+      "artifactName": "ExperimentalUpdate",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ExperimentalUpdate",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "g72x_test-Debug-x86_64": {
+      "artifactName": "g72x_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" g72x_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\g72x_test",
+      "runtimeFiles": []
+    },
+    "ExperimentalTest-Debug-x86_64": {
+      "artifactName": "ExperimentalTest",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ExperimentalTest",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "NightlyStart-Debug-x86_64": {
+      "artifactName": "NightlyStart",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" NightlyStart",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "list_formats-Debug-x86_64": {
+      "artifactName": "list_formats",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" list_formats",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\list_formats",
+      "runtimeFiles": []
+    },
+    "sndfile-metadata-set-Debug-x86_64": {
+      "artifactName": "sndfile-metadata-set",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sndfile-metadata-set",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\sndfile-metadata-set",
+      "runtimeFiles": []
+    },
+    "NightlyMemCheck-Debug-x86_64": {
+      "artifactName": "NightlyMemCheck",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" NightlyMemCheck",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "raw_test-Debug-x86_64": {
+      "artifactName": "raw_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" raw_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\raw_test",
+      "runtimeFiles": []
+    },
+    "ContinuousUpdate-Debug-x86_64": {
+      "artifactName": "ContinuousUpdate",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ContinuousUpdate",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "ExperimentalMemCheck-Debug-x86_64": {
+      "artifactName": "ExperimentalMemCheck",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ExperimentalMemCheck",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "NightlyMemoryCheck-Debug-x86_64": {
+      "artifactName": "NightlyMemoryCheck",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" NightlyMemoryCheck",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "error_test-Debug-x86_64": {
+      "artifactName": "error_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" error_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\error_test",
+      "runtimeFiles": []
+    },
+    "channel_test-Debug-x86_64": {
+      "artifactName": "channel_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" channel_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\channel_test",
+      "runtimeFiles": []
+    },
+    "ContinuousStart-Debug-x86_64": {
+      "artifactName": "ContinuousStart",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ContinuousStart",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "ogg_test-Debug-x86_64": {
+      "artifactName": "ogg_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ogg_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\ogg_test",
+      "runtimeFiles": []
+    },
+    "sndfile-Debug-x86_64": {
+      "artifactName": "sndfile",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sndfile",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\libsndfile.a",
+      "runtimeFiles": []
+    },
+    "aiff_rw_test-Debug-x86_64": {
+      "artifactName": "aiff_rw_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" aiff_rw_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\aiff_rw_test",
+      "runtimeFiles": []
+    },
+    "compression_size_test-Debug-x86_64": {
+      "artifactName": "compression_size_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" compression_size_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\compression_size_test",
+      "runtimeFiles": []
+    },
+    "header_test-Debug-x86_64": {
+      "artifactName": "header_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" header_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\header_test",
+      "runtimeFiles": []
+    },
+    "checksum_test-Debug-x86_64": {
+      "artifactName": "checksum_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" checksum_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\checksum_test",
+      "runtimeFiles": []
+    },
+    "dwvw_test-Debug-x86_64": {
+      "artifactName": "dwvw_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" dwvw_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\dwvw_test",
+      "runtimeFiles": []
+    },
+    "chunk_test-Debug-x86_64": {
+      "artifactName": "chunk_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" chunk_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\chunk_test",
+      "runtimeFiles": []
+    },
+    "ExperimentalCoverage-Debug-x86_64": {
+      "artifactName": "ExperimentalCoverage",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ExperimentalCoverage",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "sfprocess-Debug-x86_64": {
+      "artifactName": "sfprocess",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sfprocess",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\sfprocess",
+      "runtimeFiles": []
+    },
+    "NightlyConfigure-Debug-x86_64": {
+      "artifactName": "NightlyConfigure",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" NightlyConfigure",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "stdio_test-Debug-x86_64": {
+      "artifactName": "stdio_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" stdio_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\stdio_test",
+      "runtimeFiles": []
+    },
+    "Experimental-Debug-x86_64": {
+      "artifactName": "Experimental",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" Experimental",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "sndfile-metadata-get-Debug-x86_64": {
+      "artifactName": "sndfile-metadata-get",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sndfile-metadata-get",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\sndfile-metadata-get",
+      "runtimeFiles": []
+    },
+    "pipe_test-Debug-x86_64": {
+      "artifactName": "pipe_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" pipe_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\pipe_test",
+      "runtimeFiles": []
+    },
+    "sndfile-concat-Debug-x86_64": {
+      "artifactName": "sndfile-concat",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sndfile-concat",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\sndfile-concat",
+      "runtimeFiles": []
+    },
+    "cpp_test-Debug-x86_64": {
+      "artifactName": "cpp_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" cpp_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\cpp_test",
+      "runtimeFiles": []
+    },
+    "rdwr_test-Debug-x86_64": {
+      "artifactName": "rdwr_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" rdwr_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\rdwr_test",
+      "runtimeFiles": []
+    },
+    "sndfile-salvage-Debug-x86_64": {
+      "artifactName": "sndfile-salvage",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sndfile-salvage",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\sndfile-salvage",
+      "runtimeFiles": []
+    },
+    "external_libs_test-Debug-x86_64": {
+      "artifactName": "external_libs_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" external_libs_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\external_libs_test",
+      "runtimeFiles": []
+    },
+    "multi_file_test-Debug-x86_64": {
+      "artifactName": "multi_file_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" multi_file_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\multi_file_test",
+      "runtimeFiles": []
+    },
+    "long_read_write_test-Debug-x86_64": {
+      "artifactName": "long_read_write_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" long_read_write_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\long_read_write_test",
+      "runtimeFiles": []
+    },
+    "sndfilehandle-Debug-x86_64": {
+      "artifactName": "sndfilehandle",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sndfilehandle",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\sndfilehandle",
+      "runtimeFiles": []
+    },
+    "locale_test-Debug-x86_64": {
+      "artifactName": "locale_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" locale_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\locale_test",
+      "runtimeFiles": []
+    },
+    "Continuous-Debug-x86_64": {
+      "artifactName": "Continuous",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" Continuous",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "peak_chunk_test-Debug-x86_64": {
+      "artifactName": "peak_chunk_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" peak_chunk_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\peak_chunk_test",
+      "runtimeFiles": []
+    },
+    "test_utils-Debug-x86_64": {
+      "artifactName": "test_utils",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" test_utils",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\libtest_utils.a",
+      "runtimeFiles": []
+    },
+    "command_test-Debug-x86_64": {
+      "artifactName": "command_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" command_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\command_test",
+      "runtimeFiles": []
+    },
+    "ContinuousConfigure-Debug-x86_64": {
+      "artifactName": "ContinuousConfigure",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ContinuousConfigure",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "headerless_test-Debug-x86_64": {
+      "artifactName": "headerless_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" headerless_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\headerless_test",
+      "runtimeFiles": []
+    },
+    "ExperimentalStart-Debug-x86_64": {
+      "artifactName": "ExperimentalStart",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ExperimentalStart",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "sndfile-convert-Debug-x86_64": {
+      "artifactName": "sndfile-convert",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sndfile-convert",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\sndfile-convert",
+      "runtimeFiles": []
+    },
+    "ContinuousMemCheck-Debug-x86_64": {
+      "artifactName": "ContinuousMemCheck",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ContinuousMemCheck",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "ulaw_test-Debug-x86_64": {
+      "artifactName": "ulaw_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ulaw_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\ulaw_test",
+      "runtimeFiles": []
+    },
+    "sndfile-info-Debug-x86_64": {
+      "artifactName": "sndfile-info",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sndfile-info",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\sndfile-info",
+      "runtimeFiles": []
+    },
+    "NightlyCoverage-Debug-x86_64": {
+      "artifactName": "NightlyCoverage",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" NightlyCoverage",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "ExperimentalBuild-Debug-x86_64": {
+      "artifactName": "ExperimentalBuild",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ExperimentalBuild",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "alaw_test-Debug-x86_64": {
+      "artifactName": "alaw_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" alaw_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\alaw_test",
+      "runtimeFiles": []
+    },
+    "NightlyTest-Debug-x86_64": {
+      "artifactName": "NightlyTest",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" NightlyTest",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "Nightly-Debug-x86_64": {
+      "artifactName": "Nightly",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" Nightly",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "write_read_test-Debug-x86_64": {
+      "artifactName": "write_read_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" write_read_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\write_read_test",
+      "runtimeFiles": []
+    },
+    "NightlyUpdate-Debug-x86_64": {
+      "artifactName": "NightlyUpdate",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" NightlyUpdate",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "sndfile-interleave-Debug-x86_64": {
+      "artifactName": "sndfile-interleave",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" sndfile-interleave",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\sndfile-interleave",
+      "runtimeFiles": []
+    },
+    "ExperimentalSubmit-Debug-x86_64": {
+      "artifactName": "ExperimentalSubmit",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" ExperimentalSubmit",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "scale_clip_test-Debug-x86_64": {
+      "artifactName": "scale_clip_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" scale_clip_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\scale_clip_test",
+      "runtimeFiles": []
+    },
+    "virtual_io_test-Debug-x86_64": {
+      "artifactName": "virtual_io_test",
+      "buildCommand": "C:\\Users\\Hp\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\" virtual_io_test",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Hp\\OneDrive\\Desktop\\Oboe-minimal\\oboe_recorder_minimal\\app\\.cxx\\cmake\\debug\\x86_64\\sndfile\\virtual_io_test",
+      "runtimeFiles": []
+    }
+  }
+}

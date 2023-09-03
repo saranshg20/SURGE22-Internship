@@ -1,0 +1,3 @@
+ninja: Entering directory `C:\Users\Hp\OneDrive\Desktop\Oboe-minimal\Oboe-Regular-Updates\Oboe-minimal\oboe_recorder_minimal\app\.cxx\cmake\debug\arm64-v8a'
+[1/2] Building CXX object CMakeFiles/audioEngine.dir/SoundRecording.cpp.o
+[2/2] Linking CXX shared library C:\Users\Hp\OneDrive\Desktop\Oboe-minimal\Oboe-Regular-Updates\Oboe-minimal\oboe_recorder_minimal\app\build\intermediates\cmake\debug\obj\arm64-v8a\libaudioEngine.so
